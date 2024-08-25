@@ -1,20 +1,47 @@
 {
   
   "name": "garbage",
+  
   "version": "1.0.0",
+  
   "desccription": "",
+  
   "main": "index.js",
+  
   "type": "module",
+  
   "scripts": {
-    "dev": "nodemon api/index.js",
-    "start": "node api/index.js"
+  
+    
+  "dev": "PORT=3001 nodemon api/index.js",
+  
+    
+  "start": "node api/index.js"
+  
   },
+  
   "keywords": [],
+  
   "author": "",
+  
   "license": "ISC",
+  
   "dependencies": {
-    "express": "^4.19.2",
-    "nodemon": "^3.1.4",
-    "react-router-dom": "^6.26.1"
+  
+    
+  "dotenv": "^16.4.5",
+  
+    
+  "express": "^4.19.2",
+  
+    
+  "mongoose": "^8.5.4",
+  
+    
+  "nodemon": "^3.1.4",
+  
+    
+  "react-router-dom": "^6.26.1"
+  
   }
 }
